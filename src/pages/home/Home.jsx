@@ -18,10 +18,10 @@ const Home = () => {
                     <ContactMe />
                 </Row>
                 <Row>
-                    <a href='#' className='home-icons'>
+                    <a href='https://github.com/GeraldineRomer' className='home-icons'>
                         <i className="bi bi-github home-icon"></i>
                     </a>
-                    <a href='#' className='home-icons-linkendin'>
+                    <a href='https://www.linkedin.com/in/geraldine-romero-47476b257/' className='home-icons-linkendin'>
                         <i className="bi bi-linkedin home-icon"></i>
                     </a>
                 </Row>

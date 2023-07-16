@@ -67,6 +67,10 @@
     color: $subtitle_color;
 }
 
-.home-icons:hover{
-    color: $subtitle_color
+a.home-icons:hover .bi-github {
+    color: $subtitle_color; 
+}
+
+a.home-icons-linkendin:hover .bi-linkedin {
+    color: $subtitle_color; 
 }

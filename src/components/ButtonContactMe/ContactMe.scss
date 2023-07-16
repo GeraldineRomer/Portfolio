@@ -18,8 +18,11 @@
         font-family: Poppins-Medium;
     }
     padding: 10px 20px;
-    &:hover{
-        background-color: $title_color;
-        color: white;
+    &.ant-btn{
+        &:hover{
+            background-color: $title_color;
+            color: white;
+            border-color: $title_color;
+        }
     }
 }
