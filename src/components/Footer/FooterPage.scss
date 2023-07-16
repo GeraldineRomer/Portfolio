@@ -1,0 +1,42 @@
+@import '../../App.scss';
+@import '../../scss/variables';
+
+.footer{
+    background: $background_footer_menu_light;
+    font-family: Poppins-Medium;
+    width: 100%;
+    color: $subtitle_color;
+    font-weight: 500;
+    &-geraldineromero{
+        font-size: 30px;
+        color: $title_color;
+    }
+    &-frontenddeveloper{
+        font-size: 20px;
+    }
+    &-icon{
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        color: $title_color;
+        font-size: 30px;
+        display: inline-block;
+        margin-right: 10px;
+    }
+    &-icons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &-copyright{
+        font-size: 16px;
+        margin-top: 65px;
+    }
+    &-geraldinefront{
+        display: block;
+    }
+}
+
+.footer label {
+    display: block;
+}

@@ -1,0 +1,25 @@
+@import '../../App.scss';
+
+.contactme{
+    background-color: $button_color;
+    border-radius: 40px;
+    width: 160px;
+    height: 52px;
+    font-family: Poppins-Medium;
+    font-size: 27px;
+    text-align: center;
+    font-weight: 500;
+    color: white;
+    &-icon{
+        width: 25.889px;
+        height: 26.709px;
+        transform: rotate(-24.34deg) translateY(-5%);
+        margin-bottom: 5px; 
+        font-family: Poppins-Medium;
+    }
+    padding: 10px 20px;
+    &:hover{
+        background-color: $title_color;
+        color: white;
+    }
+}

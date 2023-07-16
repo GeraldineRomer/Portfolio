@@ -1,0 +1,72 @@
+@import '../../App.scss';
+
+.home{
+    margin-left: 80px;
+    display: flex;
+    align-items: center;
+    &-hi{
+        color: $title_color;
+        text-align: center;
+        font-family: Poppins-Medium;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 0.24px;
+    }
+    &-frontdev{
+        color: $subtitle_color;
+        text-align: center;
+        font-family: Poppins-Medium;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 0.18px;
+    }
+    &-icons{
+        display: inline-block;
+        margin-left: 45px;
+        margin-top: 20px;
+        &-linkendin{
+            margin-left: 10px;
+            margin-top: 20px;
+        }
+    }
+    &-icon{
+        margin-top: 0px;
+        margin-right: 0px;
+        font-size: 30px;
+        color: $title_color;
+    }
+    &-btn{
+        margin-left: 3px;
+        margin-top: 10px;
+    }
+    &-blob{
+        margin-left: 30px;
+    }
+    &-scroll{
+        margin-top: 70px;
+        margin-left: 29px;
+        color: $title_color;
+        font-size: 15px;
+        font-family: Poppins-Medium;
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+}
+
+.home-content {
+    display: flex;
+    flex-direction: column; /* Coloca los elementos uno debajo del otro */
+    
+}
+
+.home-scroll:hover{
+    color: $subtitle_color;
+}
+
+.home-icons:hover{
+    color: $subtitle_color
+}
