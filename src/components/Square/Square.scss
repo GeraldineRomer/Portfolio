@@ -1,0 +1,36 @@
+@import '../../App.scss';
+
+.square{
+    background-color: $button_color;
+    border: 2px;
+    border-radius: 30px;
+    &-title{
+        color: $subtitle_color;
+        font-family: Poppins-Medium;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        letter-spacing: 0.1px;
+        margin-left: 23px;
+        display: block;
+    }
+    &-text{
+        color: $background_footer_menu_light;
+        text-align: center;
+        font-family: Poppins-Medium;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 0.09px;
+        margin-top: 0px;
+        display: block;
+    }
+    &-icon{
+        color: $title_color;
+        font-size: 40px;
+        margin-left: 62px;
+        display: block;
+    }
+}
