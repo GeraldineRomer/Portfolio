@@ -35,4 +35,24 @@
         justify-content: center;
         display: flex;
     }
+    &-dropdown1{
+        margin-left: 80px;
+        &-devicon{
+            font-size: 40px;
+            color: $title_color;
+        }
+        &-label{
+            color: #432EC0;
+            font-family: Poppins-Medium;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: 0.16px;
+        }
+        &-drownicon{
+            font-size: 20px;
+            color: $title_color;
+        }
+    }
 }
