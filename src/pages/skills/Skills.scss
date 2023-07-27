@@ -1,0 +1,38 @@
+@import '../../App.scss';
+
+.skills {
+    
+    &-title {
+        color: $title_color;
+        font-family: Poppins-Medium;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 0.18px;
+        margin-bottom: 20px;
+        margin-top: 123px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &-subtitle {
+        color: $subtitle_color;
+        font-family: Poppins-Medium;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 0.12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &-center{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+}

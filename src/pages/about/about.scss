@@ -1,6 +1,8 @@
 @import '../../App.scss';
 
 .about{
+    display: flex;
+    align-items: center;
     &-title{
         color: $title_color;
         text-align: center;
@@ -15,8 +17,33 @@
         display: flex;
     }
     &-image{
-        width: 200px;
-        height: 200px;
+        width: 691px;
+        height: 412px;
         display: flex;
     }
+    &-svg{
+        width: 570px;
+        height: 427px;
+        margin-top: 30px;
+    }
+    &-square{
+        margin-left: 192px;
+    }
+    &-square2{
+        margin-left: 25px;
+    }
+    &-text{
+        color: #432EC0;
+        font-family: Poppins-Medium;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 0.12px;
+    }
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column; /* Coloca los elementos uno debajo del otro */
 }
