@@ -1,0 +1,41 @@
+@import '../../App.scss';
+
+.dropdown{
+    margin-left: 80px;
+    &-devicon{
+        font-size: 40px;
+        color: $title_color;
+    }
+    &-label{
+        color: #432EC0;
+        font-family: Poppins-Medium;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 0.16px;
+    }
+    &-drownicon{
+        font-size: 20px;
+        color: $title_color;
+    }
+    &-menu-label-container {
+        padding-bottom: 4px; 
+        content: '';
+        position: relative;
+        bottom: 0;
+        left: 0;
+        height: 20px; 
+        background-color: $button_color;
+        border-radius: 4px; 
+        text-align: center;
+    }
+    &-menu{
+        background-color: $background_light_color;
+        font-family: Poppins-Medium;
+        &-label{
+            color: $background_light_color;
+            display: inline-block;
+        }
+    }
+}
