@@ -12,11 +12,12 @@
         font-weight: 800;
         line-height: normal;
         letter-spacing: 0.1px;
-        margin-left: 23px;
+        //margin-left: 23px;
         display: block;
+        text-align: center;
     }
     &-text{
-        color: $background_footer_menu_light;
+        color: $background_light_color;
         text-align: center;
         font-family: Poppins-Medium;
         font-size: 18px;
@@ -29,8 +30,9 @@
     }
     &-icon{
         color: $title_color;
-        font-size: 40px;
-        margin-left: 62px;
+        //font-size: 40px;
+        //margin-left: 62px;
         display: block;
+        text-align: center;
     }
 }

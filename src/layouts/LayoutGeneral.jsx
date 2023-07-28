@@ -6,6 +6,7 @@ import FooterPage from '../components/Footer/FooterPage';
 import Home from '../pages/home/Home';
 import About from '../pages/about/about';
 import Skills from '../pages/skills/Skills';
+import Service from '../pages/services/Service';
 
 const LayoutGeneral = (props) => {
     const {children} = props;
@@ -19,6 +20,7 @@ const LayoutGeneral = (props) => {
                 <Home/>
                 <About/>
                 <Skills/>
+                <Service/>
             </Content>
             <Footer className='general-layout-footer'><FooterPage/></Footer>
         </Layout>

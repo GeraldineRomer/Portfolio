@@ -14,6 +14,7 @@ const About = () => {
     const text2 = '02 projects';
     const icon2 = <i class="bi bi-briefcase-fill"></i>
     const icon1 = <i class="bi bi-star-fill"></i>
+    const font_size_icon = 40;
 
     return (
         <div> 
@@ -28,9 +29,9 @@ const About = () => {
                 </div>
                 <div>
                     <Row className='about-square'>
-                        <Square width={width_square} height={height_square} title={title1} text={text1} icon={icon1} />
+                        <Square width={width_square} height={height_square} title={title1} text={text1} icon={icon1} font_size={font_size_icon}/>
                         <div className='about-square2'>
-                            <Square   width={width_square} height={height_square} title={title2} text={text2} icon={icon2} />
+                            <Square   width={width_square} height={height_square} title={title2} text={text2} icon={icon2} font_size={font_size_icon}/>
                         </div>
                     </Row>
                     <Row>
