@@ -7,6 +7,7 @@ import Home from '../pages/home/Home';
 import About from '../pages/about/about';
 import Skills from '../pages/skills/Skills';
 import Service from '../pages/services/Service';
+import Portfolio from '../pages/portfolio/portfolio';
 
 const LayoutGeneral = (props) => {
     const {children} = props;
@@ -21,6 +22,7 @@ const LayoutGeneral = (props) => {
                 <About/>
                 <Skills/>
                 <Service/>
+                <Portfolio/>
             </Content>
             <Footer className='general-layout-footer'><FooterPage/></Footer>
         </Layout>

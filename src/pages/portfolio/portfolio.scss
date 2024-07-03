@@ -1,0 +1,114 @@
+@import '../../App.scss';
+
+.portfolio{
+    
+    &-title{
+        color: $title_color;
+        text-align: center;
+        font-family: Poppins-Medium;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 0.18px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 123px;
+    }
+    &-subtitle{
+        color: $subtitle_color;
+        font-family: Poppins-Medium;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 0.12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &-tabs {
+        color: $subtitle_color;
+        font-family: Poppins-Medium;
+        font-size: 24px;
+        font-weight: 550;
+        margin: 10px 100px 70px 100px;
+        &-img{
+            display: flex;
+            width: 400px;
+            height: 300px;
+            margin: 10px 10px 50px 10px;
+            align-items: center;
+            justify-content: center;
+            &-all{
+                z-index: 1;
+                display: flex;
+                border-radius: 20px;
+                display: flex;
+                width: 400px;
+                height: 250px;
+                margin: 10px;
+                overflow: hidden;
+            }
+            
+        }
+        &-content{
+            display: flex;
+            justify-content: right;
+            margin: 10px;
+            flex-direction: column;
+            &-p{
+                font-size: 16px;
+            }
+        }
+        .swiper-button-prev{
+            color: $title_color;
+            margin-right: 20px;
+        }
+        .swiper-button-next{
+            color: $title_color;
+            margin-left: 20px;
+        }
+        .swiper-pagination-bullet-active {
+            background: $title_color;
+            margin-top: 20px;
+        }
+        .ant-tabs-tab ant-tabs-tab-active{
+            background: $title_color;
+        }
+    }
+}
+
+.portfolio-tabs-img::before {
+    background: linear-gradient(to bottom, transparent, #7B68EE); 
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    display: flex;
+    width: 400px;
+    height: 250px;
+    position: absolute;
+    z-index: 10000000;
+    cursor: pointer;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 20px;
+    content: " View demo "url('../../assets/img/icons8-enviar-archivo-48.png') ;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: lighter;
+    align-items: end;
+}
+
+.portfolio-tabs-img:hover::before {
+    opacity: 1;
+}
+
+:where(.css-dev-only-do-not-override-1wazalj).ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: $title_color;
+    font-weight: 580;
+}
+
+.ant-tabs .ant-tabs-tab:hover {
+    color: $title_color;
+}
