@@ -8,6 +8,8 @@ import About from '../pages/about/about';
 import Skills from '../pages/skills/Skills';
 import Service from '../pages/services/Service';
 import Portfolio from '../pages/portfolio/portfolio';
+import Banner from '../pages/banner/banner';
+import Contactme from '../pages/contactme/contactmepage';
 
 const LayoutGeneral = (props) => {
     const {children} = props;
@@ -23,6 +25,8 @@ const LayoutGeneral = (props) => {
                 <Skills/>
                 <Service/>
                 <Portfolio/>
+                <Banner/>
+                <Contactme/>
             </Content>
             <Footer className='general-layout-footer'><FooterPage/></Footer>
         </Layout>

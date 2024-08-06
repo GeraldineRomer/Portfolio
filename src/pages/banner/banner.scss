@@ -1,0 +1,52 @@
+@import '../../App.scss';
+
+.banner{
+    margin: 100px 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &-square{
+        width: 993px;
+        height: 323px;
+        background-color: $subtitle_color;
+        display: flex;
+        border-radius: 30px;
+        flex-wrap: wrap;
+        &-svg{
+            display: flex;
+            width: 400px;
+            height: 323px;
+            &-image{
+                display: flex;
+                width: 400px;
+                height: 323px;
+            }
+        }
+        &-info{
+            display: flex;
+            align-items: flex-start;
+            justify-content: flex-start;
+            flex-direction: column;
+            &-title{
+                color: #FFFFFF;
+                text-align: left;
+                font-family: Poppins-Medium;
+                font-size: 30px;
+                font-weight: 550;
+                margin-top: 30px;
+            }
+            &-subtitle{
+                color: #FFFFFF;
+                text-align: left;
+                font-family: Poppins-Medium;
+                font-size: 20px;
+                font-weight: lighter;
+                margin-top: 5px;
+            }
+            &-btn{
+                display: flex;
+                margin-top: 70px;
+            }
+        }
+    }
+}
