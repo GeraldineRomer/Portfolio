@@ -1,1 +1,64 @@
 @import '../../App.scss';
+
+.contactme{
+    display: flex;
+    justify-content: center;
+    &-title{
+        color: $title_color;
+        text-align: center;
+        font-family: Poppins-Medium;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 0.18px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 123px;
+    }
+    &-subtitle{
+        color: $subtitle_color;
+        font-family: Poppins-Medium;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 0.12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &-nameemail{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin: 50px 10px;
+        &-name{
+            width: 516px;
+        }
+        &-email{
+            width: 516px;
+        }
+    }
+    &-project{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 50px 10px;
+        &-text{
+            width: 1113px;
+        }
+    }
+    &-sendmessage{
+        display: flex;
+        justify-content: center;
+        margin: 50px;
+        &-btn{
+            width: 265px;
+            height: 52px;
+            background-color: $button_color;
+            color: #FFFFFF;
+        }
+    }
+}
