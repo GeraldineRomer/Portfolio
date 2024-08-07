@@ -36,9 +36,51 @@
         margin: 50px 10px;
         &-name{
             width: 516px;
+            //label
+            .css-1jy569b-MuiFormLabel-root-MuiInputLabel-root {
+                color: $title_color;
+                font-weight: bolder;
+            }
+            //onclick input
+            .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline{
+                border-color: $title_color;
+            }
+            //onclick label
+            .css-1jy569b-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+                color: $title_color;
+            }
+            //placeholder
+            .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+                color: #B3B2B2;
+            }
+            //input
+            .css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+                border-color: $title_color;
+            }
         }
         &-email{
             width: 516px;
+            //label
+            .css-1jy569b-MuiFormLabel-root-MuiInputLabel-root {
+                color: $title_color;
+                font-weight: bolder;
+            }
+            //onclick label
+            .css-1jy569b-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+                color: $title_color;
+            }
+            //placeholder
+            .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+                color: #B3B2B2;
+            }
+            // input
+            .css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+                border-color: $title_color;
+            }
+            //onclik input
+            .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline{
+                border-color: $title_color;
+            }
         }
     }
     &-project{
@@ -48,6 +90,27 @@
         margin: 50px 10px;
         &-text{
             width: 1113px;
+            //label
+            .css-1jy569b-MuiFormLabel-root-MuiInputLabel-root {
+                color: $title_color;
+                font-weight: bolder;
+            }
+            //onclick label
+            .css-1jy569b-MuiFormLabel-root-MuiInputLabel-root.Mui-focused{
+                color: $title_color;
+            }
+            //text area square
+            .css-1d3z3hw-MuiOutlinedInput-notchedOutline{
+                border-color: $title_color;
+            }
+            //onclick text area square
+            .css-dpjnhs-MuiInputBase-root-MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline{
+                border-color: $title_color;
+            }
+            //placeholder
+            .css-1sqnrkk-MuiInputBase-input-MuiOutlinedInput-input {
+                color: #B3B2B2;
+            }
         }
     }
     &-sendmessage{
@@ -59,6 +122,15 @@
             height: 52px;
             background-color: $button_color;
             color: #FFFFFF;
+            font-size: 24px;
+            &:hover{
+                background-color: $title_color;
+                color: white;
+                border-color: $title_color;
+            }
         }
     }
 }
+
+
+

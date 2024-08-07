@@ -26,6 +26,7 @@ const contactmepage = () => {
             </div>
             <div className='contactme-project'>
                 <TextField
+                    required
                     id="outlined-multiline-static"
                     label="Project"
                     multiline
