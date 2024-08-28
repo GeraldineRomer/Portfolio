@@ -121,12 +121,13 @@
             width: 265px;
             height: 52px;
             background-color: $button_color;
-            color: #FFFFFF;
+            color: white;
             font-size: 24px;
             &:hover{
                 background-color: $title_color;
-                color: white;
-                border-color: $title_color;
+                color: white !important;
+                border-color: $title_color !important;
+                box-shadow: none 
             }
         }
     }
