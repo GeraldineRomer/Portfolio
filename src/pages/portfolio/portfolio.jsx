@@ -171,7 +171,7 @@ const Portfolio = () => {
     }
 
     return (
-        <div>
+        <div id='portfolio'>
             <label className='portfolio-title'>Portfolio</label>
             <label className='portfolio-subtitle'>My recent works</label>
             <Tabs

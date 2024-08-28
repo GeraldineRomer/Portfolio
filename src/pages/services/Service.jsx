@@ -15,7 +15,7 @@ const Service = () => {
     const height = 300;
 
     return (
-        <div>
+        <div id='services'>
             <label className='service-title'>My Services</label>
             <label className='service-subtitle'>What I do</label>
             <Row style={{marginTop: '70px'}}>

@@ -66,7 +66,7 @@ const Skills = () => {
     const icon3 = <i class="bi bi-code-slash"></i>
 
     return (
-        <div>
+        <div id='skills'>
             <div>
                 <label className='skills-title'>Skills</label>
                 <label className='skills-subtitle'>My technical level</label>

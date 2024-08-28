@@ -17,7 +17,7 @@ const About = () => {
     const font_size_icon = 40;
 
     return (
-        <div> 
+        <div id='about'> 
             <label className='about-title' >About Me</label>
             <div className='about'>
                 <div className='about-content'>

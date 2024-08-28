@@ -6,7 +6,7 @@ import { Row } from 'antd';
 
 const Home = () => {
     return (
-        <div className='home'>
+        <div className='home' id='home'>
             <div className='home-content'>
                 <Row>
                     <label className='home-hi'>Hi, I'm Geraldine Romero</label>
